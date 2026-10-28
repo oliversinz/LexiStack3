@@ -340,15 +340,15 @@
         },
         {
           "id": "g2",
-          "title": "METRIC PREFIXES",
+          "title": "LENGTH UNITS",
           "difficultyTier": 2,
           "tiles": [
-            "KILO",
-            "CENTI",
-            "MILLI",
-            "DECI"
+            "INCH",
+            "FOOT",
+            "YARD",
+            "MILE"
           ],
-          "triviaFact": "The prefix centi means one hundredth of the base unit."
+          "triviaFact": "A yard contains three feet, while a mile contains thousands of feet."
         },
         {
           "id": "g3",
@@ -370,7 +370,7 @@
             "PIT",
             "DOOR",
             "SHORT",
-            "NON"
+            "BACK"
           ],
           "triviaFact": "A shortstop is a defensive position in baseball between second and third base."
         }
@@ -380,7 +380,7 @@
           "tiles": [
             "BUS"
           ],
-          "note": "BUS stop is a familiar phrase, but BUS has three exact transport partners; the STOP group includes NON, as in nonstop."
+          "note": "BUS stop is a familiar phrase, but BUS has three exact transport partners; PIT, DOOR, SHORT and BACK all take STOP."
         }
       ]
     },
@@ -427,15 +427,15 @@
         },
         {
           "id": "g4",
-          "title": "COOKING WORDS THAT ARE ALSO PEOPLE",
+          "title": "OCCUPATIONS THAT BECAME SURNAMES",
           "difficultyTier": 4,
           "tiles": [
-            "JULIENNE",
             "BAKER",
             "COOK",
-            "PORTER"
+            "PORTER",
+            "FISHER"
           ],
-          "triviaFact": "Julienne names both a French given name and a cut that makes thin strips."
+          "triviaFact": "Occupational surnames often preserve the work once done by a family's ancestors."
         }
       ],
       "redHerrings": [
@@ -504,9 +504,9 @@
       "redHerrings": [
         {
           "tiles": [
-            "BOLT"
+            "DASH"
           ],
-          "note": "BOLT can be a quantity of cloth, tempting a measures connection, but DASH, PINCH, DROP and TRACE all mean a small amount."
+          "note": "DASH can mean moving quickly, like BOLT or SPRINT, but it also completes the four expressions for tiny amounts."
         }
       ]
     }

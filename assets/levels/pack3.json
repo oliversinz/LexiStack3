@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 2,
+  "pack": {
+    "id": "pack3",
+    "title": "World History & Myth",
+    "description": "Ancient places, enduring stories, and words with a past."
+  },
+  "levels": [
+    {
+      "id": "pack3_lvl01",
+      "packId": "pack3",
+      "title": "Echoes of Empire",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "ROMAN DEITIES",
+          "difficultyTier": 1,
+          "tiles": [
+            "MARS",
+            "JUNO",
+            "VESTA",
+            "NEPTUNE"
+          ],
+          "triviaFact": "Vesta was associated with the hearth and the sacred fire of ancient Rome."
+        },
+        {
+          "id": "g2",
+          "title": "GREEK LETTERS",
+          "difficultyTier": 2,
+          "tiles": [
+            "ALPHA",
+            "BETA",
+            "GAMMA",
+            "DELTA"
+          ],
+          "triviaFact": "The English word alphabet combines the names of the first two Greek letters."
+        },
+        {
+          "id": "g3",
+          "title": "HISTORIC WRITING SURFACES",
+          "difficultyTier": 3,
+          "tiles": [
+            "PAPYRUS",
+            "VELLUM",
+            "PARCHMENT",
+            "CLAY TABLET"
+          ],
+          "triviaFact": "Papyrus sheets were made from strips cut from the stem of a wetland plant."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE AGE",
+          "difficultyTier": 4,
+          "tiles": [
+            "STONE",
+            "BRONZE",
+            "IRON",
+            "SPACE"
+          ],
+          "triviaFact": "The Bronze Age takes its name from an alloy commonly made with copper and tin."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "MARS",
+            "NEPTUNE"
+          ],
+          "note": "MARS and NEPTUNE suggest planets, but JUNO and VESTA complete the Roman deities; this board has no four-planet set."
+        }
+      ]
+    },
+    {
+      "id": "pack3_lvl02",
+      "packId": "pack3",
+      "title": "A Long Way Home",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "GREEK MYTHIC HEROES",
+          "difficultyTier": 1,
+          "tiles": [
+            "ODYSSEUS",
+            "ACHILLES",
+            "PERSEUS",
+            "THESEUS"
+          ],
+          "triviaFact": "The Odyssey follows Odysseus on his troubled journey home from Troy."
+        },
+        {
+          "id": "g2",
+          "title": "ANCIENT MONUMENTS",
+          "difficultyTier": 2,
+          "tiles": [
+            "SPHINX",
+            "COLOSSEUM",
+            "PARTHENON",
+            "STONEHENGE"
+          ],
+          "triviaFact": "Stonehenge includes stones brought from places far from its Salisbury Plain setting."
+        },
+        {
+          "id": "g3",
+          "title": "HISTORIC NAVIGATION TOOLS",
+          "difficultyTier": 3,
+          "tiles": [
+            "ASTROLABE",
+            "SEXTANT",
+            "COMPASS",
+            "CROSS STAFF"
+          ],
+          "triviaFact": "A sextant measures the angle between two visible objects, often a star and the horizon."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE HORSE",
+          "difficultyTier": 4,
+          "tiles": [
+            "TROJAN",
+            "SEA",
+            "ROCKING",
+            "CLOTHES"
+          ],
+          "triviaFact": "A clothes horse is a frame used to hold garments while they dry."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "TROJAN"
+          ],
+          "note": "TROJAN recalls the war of ACHILLES and ODYSSEUS, but is not a hero's name; the four HORSE compounds resolve it."
+        }
+      ]
+    },
+    {
+      "id": "pack3_lvl03",
+      "packId": "pack3",
+      "title": "Set in Stone",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "EGYPTIAN DEITIES",
+          "difficultyTier": 1,
+          "tiles": [
+            "ISIS",
+            "OSIRIS",
+            "HORUS",
+            "ANUBIS"
+          ],
+          "triviaFact": "Anubis was associated with embalming and was often depicted with a jackal-like head."
+        },
+        {
+          "id": "g2",
+          "title": "ARCHITECTURAL FEATURES",
+          "difficultyTier": 2,
+          "tiles": [
+            "ARCH",
+            "KEYSTONE",
+            "COLUMN",
+            "DOME"
+          ],
+          "triviaFact": "A keystone is the central wedge-shaped stone at the top of an arch."
+        },
+        {
+          "id": "g3",
+          "title": "ANCIENT AMERICAN CULTURES",
+          "difficultyTier": 3,
+          "tiles": [
+            "MAYA",
+            "INCA",
+            "AZTEC",
+            "OLMEC"
+          ],
+          "triviaFact": "The Inca used knotted cords called quipus to record information."
+        },
+        {
+          "id": "g4",
+          "title": "ALSO VERBS FOR SUPPORTING",
+          "difficultyTier": 4,
+          "tiles": [
+            "BACK",
+            "BEAR",
+            "PROP",
+            "BRACE"
+          ],
+          "triviaFact": "To brace something is to strengthen it against pressure or movement."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "PROP",
+            "BRACE"
+          ],
+          "note": "PROP and BRACE sound like structural features, but join BACK and BEAR as verbs meaning to support."
+        }
+      ]
+    },
+    {
+      "id": "pack3_lvl04",
+      "packId": "pack3",
+      "title": "By Royal Appointment",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "ROYAL TITLES",
+          "difficultyTier": 1,
+          "tiles": [
+            "EMPEROR",
+            "SULTAN",
+            "PHARAOH",
+            "TSAR"
+          ],
+          "triviaFact": "Tsar developed from Caesar, showing how a personal name could become a title."
+        },
+        {
+          "id": "g2",
+          "title": "NORSE MYTHIC FIGURES",
+          "difficultyTier": 2,
+          "tiles": [
+            "ODIN",
+            "THOR",
+            "LOKI",
+            "FREYA"
+          ],
+          "triviaFact": "In Norse mythology, Thor carries a hammer called Mjolnir."
+        },
+        {
+          "id": "g3",
+          "title": "ANCIENT TRADE GOODS",
+          "difficultyTier": 3,
+          "tiles": [
+            "SILK",
+            "INCENSE",
+            "SPICES",
+            "IVORY"
+          ],
+          "triviaFact": "Incense was traded for use in religious ceremonies and for its fragrance."
+        },
+        {
+          "id": "g4",
+          "title": "FOLLOW CROWN",
+          "difficultyTier": 4,
+          "tiles": [
+            "JEWELS",
+            "PRINCE",
+            "COURT",
+            "LAND"
+          ],
+          "triviaFact": "Crown land refers to land held by the monarch or state under a country's legal system."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "PRINCE"
+          ],
+          "note": "PRINCE seems to make a fifth royal title, but CROWN JEWELS, CROWN COURT and CROWN LAND make the intended phrase set."
+        }
+      ]
+    },
+    {
+      "id": "pack3_lvl05",
+      "packId": "pack3",
+      "title": "Stories That Travel",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "MYTHIC CREATURES",
+          "difficultyTier": 1,
+          "tiles": [
+            "WEREWOLF",
+            "GRIFFIN",
+            "MINOTAUR",
+            "MERMAID"
+          ],
+          "triviaFact": "A werewolf is a human who transforms into a wolf in European folklore."
+        },
+        {
+          "id": "g2",
+          "title": "LANDMARKS IN ASIA",
+          "difficultyTier": 2,
+          "tiles": [
+            "TAJ MAHAL",
+            "ANGKOR WAT",
+            "GREAT WALL",
+            "PETRA"
+          ],
+          "triviaFact": "Angkor Wat was originally built as a Hindu temple and later became a Buddhist site."
+        },
+        {
+          "id": "g3",
+          "title": "WORDS FROM ARABIC",
+          "difficultyTier": 3,
+          "tiles": [
+            "ALGEBRA",
+            "ALCOHOL",
+            "ALKALI",
+            "AZIMUTH"
+          ],
+          "triviaFact": "Algebra derives from an Arabic term connected with restoring or completing."
+        },
+        {
+          "id": "g4",
+          "title": "FOLLOW SILVER",
+          "difficultyTier": 4,
+          "tiles": [
+            "LINING",
+            "SCREEN",
+            "SPOON",
+            "BULLET"
+          ],
+          "triviaFact": "A silver lining uses the bright edge of a cloud as a metaphor for hope."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "BULLET"
+          ],
+          "note": "BULLET recalls silver bullets and WEREWOLF, but SILVER also makes established phrases with LINING, SCREEN and SPOON."
+        }
+      ]
+    },
+    {
+      "id": "pack3_lvl06",
+      "packId": "pack3",
+      "title": "Messages from the Past",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "HISTORIC WRITING SYSTEMS",
+          "difficultyTier": 1,
+          "tiles": [
+            "CUNEIFORM",
+            "DEMOTIC",
+            "LINEAR B",
+            "RUNIC"
+          ],
+          "triviaFact": "Linear B was used to write an early form of the Greek language."
+        },
+        {
+          "id": "g2",
+          "title": "HISTORIC SEAFARING PEOPLES",
+          "difficultyTier": 2,
+          "tiles": [
+            "VIKINGS",
+            "PHOENICIAN",
+            "POLYNESIAN",
+            "PORTUGUESE"
+          ],
+          "triviaFact": "Polynesian navigators used stars, swells and other natural cues to cross the Pacific."
+        },
+        {
+          "id": "g3",
+          "title": "MYTHIC UNDERWORLD FIGURES",
+          "difficultyTier": 3,
+          "tiles": [
+            "HADES",
+            "CHARON",
+            "CERBERUS",
+            "HEL"
+          ],
+          "triviaFact": "Charon ferries the dead across a river in Greek underworld mythology."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE SHIP",
+          "difficultyTier": 4,
+          "tiles": [
+            "FRIEND",
+            "HARD",
+            "FELLOW",
+            "WORKMAN"
+          ],
+          "triviaFact": "Friendship once used a suffix meaning a state or condition, also found in fellowship."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "CHARON"
+          ],
+          "note": "CHARON ferries passengers and so tempts a seafaring group, but his three partners also belong to underworld myths."
+        }
+      ]
+    },
+    {
+      "id": "pack3_lvl07",
+      "packId": "pack3",
+      "title": "Ideas with Roots",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "GREEK PHILOSOPHERS",
+          "difficultyTier": 1,
+          "tiles": [
+            "SOCRATES",
+            "PLATO",
+            "ARISTOTLE",
+            "EPICURUS"
+          ],
+          "triviaFact": "Socrates left no known writings of his own, so his ideas survive through other authors."
+        },
+        {
+          "id": "g2",
+          "title": "ROMAN PUBLIC STRUCTURES",
+          "difficultyTier": 2,
+          "tiles": [
+            "AQUEDUCT",
+            "BASILICA",
+            "FORUM",
+            "BATHS"
+          ],
+          "triviaFact": "Roman basilicas served public and legal functions before the term became linked to churches."
+        },
+        {
+          "id": "g3",
+          "title": "HISTORIC ART MATERIALS",
+          "difficultyTier": 3,
+          "tiles": [
+            "OCHRE",
+            "CHARCOAL",
+            "LAPIS",
+            "GOLD LEAF"
+          ],
+          "triviaFact": "Lapis lazuli was ground to make the blue pigment traditionally called ultramarine."
+        },
+        {
+          "id": "g4",
+          "title": "WORDS WITH SILENT INITIAL LETTERS",
+          "difficultyTier": 4,
+          "tiles": [
+            "KNIGHT",
+            "PSALM",
+            "WRIST",
+            "GNOME"
+          ],
+          "triviaFact": "The silent initial letter in knight reflects changes in English pronunciation."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "KNIGHT"
+          ],
+          "note": "KNIGHT and GNOME suggest medieval fantasy, but WRIST and PSALM reveal the shared silent initial letters."
+        }
+      ]
+    },
+    {
+      "id": "pack3_lvl08",
+      "packId": "pack3",
+      "title": "Names Outlive Empires",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "HISTORIC RULERS",
+          "difficultyTier": 1,
+          "tiles": [
+            "CAESAR",
+            "ASHOKA",
+            "SALADIN",
+            "AUGUSTUS"
+          ],
+          "triviaFact": "Augustus became the first Roman emperor after the end of the Roman Republic."
+        },
+        {
+          "id": "g2",
+          "title": "WORDS FROM PERSONAL NAMES",
+          "difficultyTier": 2,
+          "tiles": [
+            "SANDWICH",
+            "DIESEL",
+            "BRAILLE",
+            "SAXOPHONE"
+          ],
+          "triviaFact": "Braille takes its name from Louis Braille, who developed the tactile reading system."
+        },
+        {
+          "id": "g3",
+          "title": "WORDS USING ONLY ROMAN NUMERAL LETTERS",
+          "difficultyTier": 3,
+          "tiles": [
+            "MIX",
+            "CIVIL",
+            "LIVID",
+            "MILD"
+          ],
+          "triviaFact": "These words use only Roman numeral letters, though they need not form valid numbers."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE MARK",
+          "difficultyTier": 4,
+          "tiles": [
+            "HALL",
+            "BENCH",
+            "LAND",
+            "TRADE"
+          ],
+          "triviaFact": "A hallmark originally identified an official assay of a precious metal."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "CAESAR"
+          ],
+          "note": "CAESAR recalls a salad beside SANDWICH, but on this board CAESAR completes four rulers; the named inventions have their own set."
+        }
+      ]
+    }
+  ]
+}

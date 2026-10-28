@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 2,
+  "pack": {
+    "id": "pack2",
+    "title": "Science & Nature",
+    "description": "Small wonders, big ideas, and nature’s double meanings."
+  },
+  "levels": [
+    {
+      "id": "pack2_lvl01",
+      "packId": "pack2",
+      "title": "Other Worlds",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "PLANETS BEYOND EARTH",
+          "difficultyTier": 1,
+          "tiles": [
+            "MARS",
+            "VENUS",
+            "SATURN",
+            "JUPITER"
+          ],
+          "triviaFact": "Saturn is less dense than water when its mass is averaged over its entire volume."
+        },
+        {
+          "id": "g2",
+          "title": "METALLIC ELEMENTS",
+          "difficultyTier": 2,
+          "tiles": [
+            "MERCURY",
+            "LEAD",
+            "GOLD",
+            "IRON"
+          ],
+          "triviaFact": "Mercury is a metal that remains liquid at ordinary room temperature."
+        },
+        {
+          "id": "g3",
+          "title": "DECIDUOUS TREES",
+          "difficultyTier": 3,
+          "tiles": [
+            "BIRCH",
+            "WILLOW",
+            "MAPLE",
+            "BEECH"
+          ],
+          "triviaFact": "Deciduous trees shed their leaves seasonally, reducing water loss during unfavorable conditions."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE CELL",
+          "difficultyTier": 4,
+          "tiles": [
+            "STEM",
+            "FUEL",
+            "DRY",
+            "PRISON"
+          ],
+          "triviaFact": "A dry cell uses an electrolyte held in a paste rather than a freely flowing liquid."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "MERCURY"
+          ],
+          "note": "MERCURY looks like a fifth planet, but it completes the four metallic elements and leaves four unambiguous planets."
+        }
+      ]
+    },
+    {
+      "id": "pack2_lvl02",
+      "packId": "pack2",
+      "title": "Good Vibrations",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "INSECTS",
+          "difficultyTier": 1,
+          "tiles": [
+            "FLY",
+            "BEE",
+            "ANT",
+            "BEETLE"
+          ],
+          "triviaFact": "Insects have three pairs of legs attached to their thorax."
+        },
+        {
+          "id": "g2",
+          "title": "STATES OF MATTER",
+          "difficultyTier": 2,
+          "tiles": [
+            "SOLID",
+            "LIQUID",
+            "GAS",
+            "PLASMA"
+          ],
+          "triviaFact": "Plasma contains charged particles and occurs naturally in lightning."
+        },
+        {
+          "id": "g3",
+          "title": "UNITS NAMED AFTER SCIENTISTS",
+          "difficultyTier": 3,
+          "tiles": [
+            "HERTZ",
+            "WATT",
+            "PASCAL",
+            "NEWTON"
+          ],
+          "triviaFact": "A hertz measures one cycle per second, making it useful for describing frequency."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE WAVE",
+          "difficultyTier": 4,
+          "tiles": [
+            "HEAT",
+            "SOUND",
+            "TIDAL",
+            "BRAIN"
+          ],
+          "triviaFact": "An electroencephalogram records electrical activity commonly described as brain waves."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "SOUND"
+          ],
+          "note": "SOUND goes naturally with HERTZ, but is not a measurement unit; its three partners all make familiar WAVE expressions."
+        }
+      ]
+    },
+    {
+      "id": "pack2_lvl03",
+      "packId": "pack2",
+      "title": "Layers of Nature",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "MINERALS",
+          "difficultyTier": 1,
+          "tiles": [
+            "QUARTZ",
+            "MICA",
+            "TALC",
+            "GYPSUM"
+          ],
+          "triviaFact": "Talc sits at the softest end of the Mohs scale of mineral hardness."
+        },
+        {
+          "id": "g2",
+          "title": "CELL STRUCTURES",
+          "difficultyTier": 2,
+          "tiles": [
+            "NUCLEUS",
+            "MEMBRANE",
+            "RIBOSOME",
+            "CYTOPLASM"
+          ],
+          "triviaFact": "Ribosomes assemble proteins by linking amino acids together."
+        },
+        {
+          "id": "g3",
+          "title": "CLOUD WORDS",
+          "difficultyTier": 3,
+          "tiles": [
+            "CIRRUS",
+            "CUMULUS",
+            "STRATUS",
+            "NIMBUS"
+          ],
+          "triviaFact": "Cirrus clouds are made mostly of ice crystals high in the atmosphere."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE STONE",
+          "difficultyTier": 4,
+          "tiles": [
+            "LIME",
+            "SAND",
+            "TOUCH",
+            "LODE"
+          ],
+          "triviaFact": "A lodestone is naturally magnetized magnetite and can attract iron."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "LIME"
+          ],
+          "note": "LIME suggests mineral chemistry, but SAND, TOUCH and LODE complete four familiar compounds ending in STONE."
+        }
+      ]
+    },
+    {
+      "id": "pack2_lvl04",
+      "packId": "pack2",
+      "title": "Seeing Things",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "MOONS OF GIANT PLANETS",
+          "difficultyTier": 1,
+          "tiles": [
+            "IO",
+            "EUROPA",
+            "TITAN",
+            "TRITON"
+          ],
+          "triviaFact": "Titan has a thick atmosphere and lakes of liquid hydrocarbons on its surface."
+        },
+        {
+          "id": "g2",
+          "title": "UNITS OF VOLUME",
+          "difficultyTier": 2,
+          "tiles": [
+            "LITRE",
+            "GALLON",
+            "PINT",
+            "QUART"
+          ],
+          "triviaFact": "The imperial gallon and the US gallon represent different volumes."
+        },
+        {
+          "id": "g3",
+          "title": "OPTICAL COMPONENTS",
+          "difficultyTier": 3,
+          "tiles": [
+            "LENS",
+            "PRISM",
+            "MIRROR",
+            "FILTER"
+          ],
+          "triviaFact": "A prism separates white light because different wavelengths bend by different amounts."
+        },
+        {
+          "id": "g4",
+          "title": "FOLLOW RAIN",
+          "difficultyTier": 4,
+          "tiles": [
+            "BOW",
+            "COAT",
+            "DROP",
+            "FALL"
+          ],
+          "triviaFact": "A rainbow forms when sunlight is refracted and reflected inside water droplets."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "BOW"
+          ],
+          "note": "BOW suggests the rainbow colors that a PRISM produces, but BOW, COAT, DROP and FALL all follow RAIN."
+        }
+      ]
+    },
+    {
+      "id": "pack2_lvl05",
+      "packId": "pack2",
+      "title": "Nature by Design",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "POLLINATING ANIMALS",
+          "difficultyTier": 1,
+          "tiles": [
+            "MOTH",
+            "BAT",
+            "BUTTERFLY",
+            "HOVERFLY"
+          ],
+          "triviaFact": "Some bats pollinate flowers while feeding on nectar."
+        },
+        {
+          "id": "g2",
+          "title": "PARTS OF A FLOWER",
+          "difficultyTier": 2,
+          "tiles": [
+            "PETAL",
+            "SEPAL",
+            "STAMEN",
+            "PISTIL"
+          ],
+          "triviaFact": "Sepals usually protect a flower while it is still a bud."
+        },
+        {
+          "id": "g3",
+          "title": "COMPUTER HARDWARE",
+          "difficultyTier": 3,
+          "tiles": [
+            "MOUSE",
+            "KEYBOARD",
+            "MONITOR",
+            "ROUTER"
+          ],
+          "triviaFact": "A router directs data packets between networks."
+        },
+        {
+          "id": "g4",
+          "title": "FOLLOW FIRE",
+          "difficultyTier": 4,
+          "tiles": [
+            "FOX",
+            "FLY",
+            "WALL",
+            "WORK"
+          ],
+          "triviaFact": "A firewall controls which network traffic may pass according to a set of rules."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "MOUSE"
+          ],
+          "note": "MOUSE looks like another animal, but KEYBOARD, MONITOR and ROUTER give it a complete computing connection."
+        }
+      ]
+    },
+    {
+      "id": "pack2_lvl06",
+      "packId": "pack2",
+      "title": "Forces at Work",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "SIMPLE MACHINES",
+          "difficultyTier": 1,
+          "tiles": [
+            "LEVER",
+            "PULLEY",
+            "WEDGE",
+            "SCREW"
+          ],
+          "triviaFact": "A screw converts turning motion into movement along its axis."
+        },
+        {
+          "id": "g2",
+          "title": "PARTS OF AN ATOM",
+          "difficultyTier": 2,
+          "tiles": [
+            "PROTON",
+            "NEUTRON",
+            "ELECTRON",
+            "NUCLEUS"
+          ],
+          "triviaFact": "Most of an atom's mass is concentrated in its central nucleus."
+        },
+        {
+          "id": "g3",
+          "title": "GEOLOGICAL PROCESSES",
+          "difficultyTier": 3,
+          "tiles": [
+            "EROSION",
+            "WEATHERING",
+            "SUBDUCTION",
+            "DEPOSITION"
+          ],
+          "triviaFact": "Subduction carries one tectonic plate beneath another."
+        },
+        {
+          "id": "g4",
+          "title": "ALSO MEAN TO ACCUSE",
+          "difficultyTier": 4,
+          "tiles": [
+            "CHARGE",
+            "BLAME",
+            "IMPLICATE",
+            "INDICT"
+          ],
+          "triviaFact": "Indict means to formally accuse someone of a crime."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "CHARGE"
+          ],
+          "note": "CHARGE suggests electrons and protons, but it is a property rather than an atomic part; the accusation verbs give it a home."
+        }
+      ]
+    },
+    {
+      "id": "pack2_lvl07",
+      "packId": "pack2",
+      "title": "Field Notes",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "ANIMAL COLLECTIVES",
+          "difficultyTier": 1,
+          "tiles": [
+            "PRIDE",
+            "POD",
+            "HERD",
+            "SWARM"
+          ],
+          "triviaFact": "A pod often describes a social group of dolphins or whales."
+        },
+        {
+          "id": "g2",
+          "title": "PARTS OF A WAVE",
+          "difficultyTier": 2,
+          "tiles": [
+            "CREST",
+            "TROUGH",
+            "AMPLITUDE",
+            "WAVELENGTH"
+          ],
+          "triviaFact": "Wavelength measures the distance between matching points on successive waves."
+        },
+        {
+          "id": "g3",
+          "title": "SCIENTISTS WITH ELEMENT NAMESAKES",
+          "difficultyTier": 3,
+          "tiles": [
+            "CURIE",
+            "EINSTEIN",
+            "FERMI",
+            "MENDELEEV"
+          ],
+          "triviaFact": "Curium honors both Marie and Pierre Curie for their work on radioactivity."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE FRUIT",
+          "difficultyTier": 4,
+          "tiles": [
+            "STAR",
+            "PASSION",
+            "DRAGON",
+            "GRAPE"
+          ],
+          "triviaFact": "Dragon fruit grows on climbing cacti and contains many small edible seeds."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "STAR"
+          ],
+          "note": "STAR seems to fit the scientific discoveries, but it is neither a scientist nor a wave part; all four partners form fruit names."
+        }
+      ]
+    },
+    {
+      "id": "pack2_lvl08",
+      "packId": "pack2",
+      "title": "Natural Doubles",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "HEAT TRANSFER TERMS",
+          "difficultyTier": 1,
+          "tiles": [
+            "CONDUCTION",
+            "CONVECTION",
+            "RADIATION",
+            "ADVECTION"
+          ],
+          "triviaFact": "Advection carries heat along with the bulk movement of a fluid."
+        },
+        {
+          "id": "g2",
+          "title": "DNA BASE NAMES",
+          "difficultyTier": 2,
+          "tiles": [
+            "ADENINE",
+            "THYMINE",
+            "GUANINE",
+            "CYTOSINE"
+          ],
+          "triviaFact": "In DNA, adenine pairs with thymine and guanine pairs with cytosine."
+        },
+        {
+          "id": "g3",
+          "title": "ANIMALS WITH MISLEADING NAMES",
+          "difficultyTier": 3,
+          "tiles": [
+            "JELLYFISH",
+            "STARFISH",
+            "SEAHORSE",
+            "GUINEA PIG"
+          ],
+          "triviaFact": "Despite its name, a seahorse is a fish rather than a miniature land mammal."
+        },
+        {
+          "id": "g4",
+          "title": "BOTH SCIENCE AND EVERYDAY VERBS",
+          "difficultyTier": 4,
+          "tiles": [
+            "BOND",
+            "DECAY",
+            "REACT",
+            "ADAPT"
+          ],
+          "triviaFact": "Chemical bonds involve the interactions of electrons between atoms."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "DECAY"
+          ],
+          "note": "DECAY may suggest heat from radioactivity, but it is not a heat-transfer term; BOND, REACT and ADAPT are also verbs."
+        }
+      ]
+    }
+  ]
+}

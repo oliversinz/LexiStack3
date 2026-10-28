@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 2,
+  "pack": {
+    "id": "pack4",
+    "title": "Pop Culture & Wordplay",
+    "description": "Screen legends, literary surprises, and a twist of language."
+  },
+  "levels": [
+    {
+      "id": "pack4_lvl01",
+      "packId": "pack4",
+      "title": "Opening Night",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "FILM GENRES",
+          "difficultyTier": 1,
+          "tiles": [
+            "COMEDY",
+            "DRAMA",
+            "THRILLER",
+            "WESTERN"
+          ],
+          "triviaFact": "A western typically uses frontier life as a setting for its story."
+        },
+        {
+          "id": "g2",
+          "title": "MUSICAL TEMPO DIRECTIONS",
+          "difficultyTier": 2,
+          "tiles": [
+            "ADAGIO",
+            "ALLEGRO",
+            "PRESTO",
+            "ANDANTE"
+          ],
+          "triviaFact": "Andante suggests a walking pace, while presto calls for a much faster tempo."
+        },
+        {
+          "id": "g3",
+          "title": "TRAVELERS TO THE EMERALD CITY",
+          "difficultyTier": 3,
+          "tiles": [
+            "DOROTHY",
+            "TOTO",
+            "SCARECROW",
+            "TIN MAN"
+          ],
+          "triviaFact": "The Wonderful Wizard of Oz began as a novel before its famous screen adaptation."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE STAR",
+          "difficultyTier": 4,
+          "tiles": [
+            "ROCK",
+            "FILM",
+            "LODE",
+            "SHOOTING"
+          ],
+          "triviaFact": "A lodestar is a guiding star, often used metaphorically for a guiding principle."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "TOTO"
+          ],
+          "note": "TOTO is also a band's name, but ADAGIO and its partners specify musical speed; the Oz travelers make a complete set."
+        }
+      ]
+    },
+    {
+      "id": "pack4_lvl02",
+      "packId": "pack4",
+      "title": "Listen Closely",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "ORCHESTRAL INSTRUMENTS",
+          "difficultyTier": 1,
+          "tiles": [
+            "OBOE",
+            "CELLO",
+            "TUBA",
+            "VIOLA"
+          ],
+          "triviaFact": "An oboe produces sound using a double reed made of two thin blades."
+        },
+        {
+          "id": "g2",
+          "title": "THEATER WORDS",
+          "difficultyTier": 2,
+          "tiles": [
+            "ACT",
+            "SCENE",
+            "INTERVAL",
+            "CURTAIN"
+          ],
+          "triviaFact": "A play can be divided into acts, which can in turn contain several scenes."
+        },
+        {
+          "id": "g3",
+          "title": "FICTIONAL DETECTIVE SURNAMES",
+          "difficultyTier": 3,
+          "tiles": [
+            "HOLMES",
+            "POIROT",
+            "MARPLE",
+            "DREW"
+          ],
+          "triviaFact": "Agatha Christie created both Hercule Poirot and Miss Marple."
+        },
+        {
+          "id": "g4",
+          "title": "ANAGRAMS OF LISTEN",
+          "difficultyTier": 4,
+          "tiles": [
+            "LISTEN",
+            "SILENT",
+            "ENLIST",
+            "TINSEL"
+          ],
+          "triviaFact": "An anagram rearranges the same letters without adding or removing any."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "VIOLA"
+          ],
+          "note": "VIOLA is also a Shakespeare character, tempting the theater set, but its precise instrument partners leave four theater terms."
+        }
+      ]
+    },
+    {
+      "id": "pack4_lvl03",
+      "packId": "pack4",
+      "title": "Between the Lines",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "FICTIONAL BEARS",
+          "difficultyTier": 1,
+          "tiles": [
+            "POOH",
+            "PADDINGTON",
+            "BALOO",
+            "IOREK"
+          ],
+          "triviaFact": "Paddington takes his name from the London railway station where he is found."
+        },
+        {
+          "id": "g2",
+          "title": "TYPES OF POEM",
+          "difficultyTier": 2,
+          "tiles": [
+            "SONNET",
+            "HAIKU",
+            "LIMERICK",
+            "ODE"
+          ],
+          "triviaFact": "A traditional sonnet has fourteen lines, though rhyme patterns vary."
+        },
+        {
+          "id": "g3",
+          "title": "PEN NAMES",
+          "difficultyTier": 3,
+          "tiles": [
+            "TWAIN",
+            "ORWELL",
+            "CARROLL",
+            "VOLTAIRE"
+          ],
+          "triviaFact": "Mark Twain's pen name came from a riverboat expression for measuring water depth."
+        },
+        {
+          "id": "g4",
+          "title": "PALINDROMES",
+          "difficultyTier": 4,
+          "tiles": [
+            "LEVEL",
+            "RADAR",
+            "CIVIC",
+            "TENET"
+          ],
+          "triviaFact": "A palindrome reads the same in reverse when its letters are kept in order."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "LIMERICK"
+          ],
+          "note": "LIMERICK is a place as well as a poem type, tempting a location link with PADDINGTON, but only the poetry set has four members."
+        }
+      ]
+    },
+    {
+      "id": "pack4_lvl04",
+      "packId": "pack4",
+      "title": "In the Spotlight",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "DANCE STYLES",
+          "difficultyTier": 1,
+          "tiles": [
+            "TANGO",
+            "WALTZ",
+            "SALSA",
+            "FOXTROT"
+          ],
+          "triviaFact": "A waltz traditionally has three beats to the bar."
+        },
+        {
+          "id": "g2",
+          "title": "FILMMAKING JOBS",
+          "difficultyTier": 2,
+          "tiles": [
+            "DIRECTOR",
+            "EDITOR",
+            "GAFFER",
+            "PRODUCER"
+          ],
+          "triviaFact": "A gaffer leads the electrical lighting crew on a film production."
+        },
+        {
+          "id": "g3",
+          "title": "SHAKESPEARE TRAGEDY TITLES",
+          "difficultyTier": 3,
+          "tiles": [
+            "HAMLET",
+            "MACBETH",
+            "OTHELLO",
+            "KING LEAR"
+          ],
+          "triviaFact": "Hamlet's play within a play is used to test the king's reaction."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE LINE",
+          "difficultyTier": 4,
+          "tiles": [
+            "PUNCH",
+            "PLOT",
+            "CHORUS",
+            "DEAD"
+          ],
+          "triviaFact": "A punchline delivers the final twist that makes a joke work."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "CHORUS"
+          ],
+          "note": "CHORUS suggests a stage role beside the film crew, but the four crew jobs are exact; CHORUS forms a phrase with LINE."
+        }
+      ]
+    },
+    {
+      "id": "pack4_lvl05",
+      "packId": "pack4",
+      "title": "The Art of the Title",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "ONE-WORD PIXAR FILMS",
+          "difficultyTier": 1,
+          "tiles": [
+            "UP",
+            "CARS",
+            "BRAVE",
+            "SOUL"
+          ],
+          "triviaFact": "Soul centers on a music teacher who dreams of becoming a professional performer."
+        },
+        {
+          "id": "g2",
+          "title": "MUSIC GENRES",
+          "difficultyTier": 2,
+          "tiles": [
+            "JAZZ",
+            "BLUES",
+            "REGGAE",
+            "DISCO"
+          ],
+          "triviaFact": "Reggae developed in Jamaica and is known for its emphasis on offbeat rhythms."
+        },
+        {
+          "id": "g3",
+          "title": "LITERARY NARRATIVE DEVICES",
+          "difficultyTier": 3,
+          "tiles": [
+            "FLASHBACK",
+            "IRONY",
+            "ALLEGORY",
+            "METAPHOR"
+          ],
+          "triviaFact": "An allegory uses characters or events to convey another layer of meaning."
+        },
+        {
+          "id": "g4",
+          "title": "BEGIN AND END WITH THE SAME LETTER",
+          "difficultyTier": 4,
+          "tiles": [
+            "STATS",
+            "KAYAK",
+            "ROTOR",
+            "TRUST"
+          ],
+          "triviaFact": "A word can begin and end with the same letter without being a palindrome."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "SOUL"
+          ],
+          "note": "SOUL fits naturally beside JAZZ and BLUES, but UP, CARS and BRAVE pin it to the film-title group."
+        }
+      ]
+    },
+    {
+      "id": "pack4_lvl06",
+      "packId": "pack4",
+      "title": "A Change of Character",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "WORDS FOR A STORY ENDING",
+          "difficultyTier": 1,
+          "tiles": [
+            "FINALE",
+            "EPILOGUE",
+            "CODA",
+            "DENOUEMENT"
+          ],
+          "triviaFact": "An epilogue can show what happens to characters after the main story ends."
+        },
+        {
+          "id": "g2",
+          "title": "FAMOUS FICTIONAL CATS",
+          "difficultyTier": 2,
+          "tiles": [
+            "GARFIELD",
+            "HEATHCLIFF",
+            "FELIX",
+            "CHESHIRE"
+          ],
+          "triviaFact": "The Cheshire Cat is known for a grin that can remain after the rest of it disappears."
+        },
+        {
+          "id": "g3",
+          "title": "ANAGRAMS OF TEARS",
+          "difficultyTier": 3,
+          "tiles": [
+            "TEARS",
+            "STARE",
+            "RATES",
+            "ASTER"
+          ],
+          "triviaFact": "An aster is a flowering plant whose name comes from a Greek word for star."
+        },
+        {
+          "id": "g4",
+          "title": "ALSO MEAN TO FINISH",
+          "difficultyTier": 4,
+          "tiles": [
+            "WRAP",
+            "CLOSE",
+            "SEAL",
+            "COMPLETE"
+          ],
+          "triviaFact": "Wrap is used in filmmaking to announce that filming has finished."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "WRAP"
+          ],
+          "note": "WRAP could sound like another ending noun, but WRAP, CLOSE, SEAL and COMPLETE are all verbs that can mean to finish."
+        }
+      ]
+    },
+    {
+      "id": "pack4_lvl07",
+      "packId": "pack4",
+      "title": "Read It Another Way",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "MUSICAL FORMS",
+          "difficultyTier": 1,
+          "tiles": [
+            "FUGUE",
+            "SONATA",
+            "CONCERTO",
+            "SYMPHONY"
+          ],
+          "triviaFact": "A concerto typically contrasts a solo instrument or group with a larger ensemble."
+        },
+        {
+          "id": "g2",
+          "title": "CREATURES IN TOLKIEN",
+          "difficultyTier": 2,
+          "tiles": [
+            "HOBBIT",
+            "ENT",
+            "ORC",
+            "BALROG"
+          ],
+          "triviaFact": "Ents are tree-like beings who act as shepherds of the forest in Tolkien's stories."
+        },
+        {
+          "id": "g3",
+          "title": "READ DIFFERENTLY AS NOUN AND VERB",
+          "difficultyTier": 3,
+          "tiles": [
+            "RECORD",
+            "PRESENT",
+            "CONDUCT",
+            "OBJECT"
+          ],
+          "triviaFact": "English can distinguish a noun from a related verb by changing which syllable is stressed."
+        },
+        {
+          "id": "g4",
+          "title": "ADD S AT THE FRONT FOR A NEW WORD",
+          "difficultyTier": 4,
+          "tiles": [
+            "MILE",
+            "TONE",
+            "WORD",
+            "CARE"
+          ],
+          "triviaFact": "Adding an initial letter can change a word's meaning without changing the order of its other letters."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "CONDUCT"
+          ],
+          "note": "CONDUCT suggests leading a musical performance, but it joins RECORD, PRESENT and OBJECT in changing stress between noun and verb."
+        }
+      ]
+    },
+    {
+      "id": "pack4_lvl08",
+      "packId": "pack4",
+      "title": "Encore, Encore",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "CLASSIC NOVEL TITLES",
+          "difficultyTier": 1,
+          "tiles": [
+            "EMMA",
+            "DRACULA",
+            "DUNE",
+            "MOBY DICK"
+          ],
+          "triviaFact": "Dune imagines a desert planet where control of a valuable resource shapes political power."
+        },
+        {
+          "id": "g2",
+          "title": "WORDS THAT IMITATE SOUNDS",
+          "difficultyTier": 2,
+          "tiles": [
+            "BUZZ",
+            "HISS",
+            "CLANG",
+            "THUD"
+          ],
+          "triviaFact": "Onomatopoeia uses words whose sounds imitate the noises they describe."
+        },
+        {
+          "id": "g3",
+          "title": "ANAGRAMS OF SPOT",
+          "difficultyTier": 3,
+          "tiles": [
+            "SPOT",
+            "POST",
+            "POTS",
+            "STOP"
+          ],
+          "triviaFact": "Short words can have many anagrams because a few letters can form several common arrangements."
+        },
+        {
+          "id": "g4",
+          "title": "CAN FOLLOW DOUBLE",
+          "difficultyTier": 4,
+          "tiles": [
+            "TAKE",
+            "FEATURE",
+            "BASS",
+            "CROSS"
+          ],
+          "triviaFact": "A double take is a delayed second look caused by surprise."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "BASS"
+          ],
+          "note": "BASS can suggest a sound beside BUZZ or HISS, but is not an imitation of one; all four partners form DOUBLE expressions."
+        }
+      ]
+    }
+  ]
+}
