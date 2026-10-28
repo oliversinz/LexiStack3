@@ -427,23 +427,23 @@
         },
         {
           "id": "g4",
-          "title": "BEFORE FRUIT",
+          "title": "BEFORE WORK",
           "difficultyTier": 4,
           "tiles": [
-            "STAR",
-            "PASSION",
-            "DRAGON",
-            "GRAPE"
+            "FIELD",
+            "TEAM",
+            "NET",
+            "FRAME"
           ],
-          "triviaFact": "Dragon fruit grows on climbing cacti and contains many small edible seeds."
+          "triviaFact": "Fieldwork gathers information in a real setting rather than only in a laboratory."
         }
       ],
       "redHerrings": [
         {
           "tiles": [
-            "STAR"
+            "TEAM"
           ],
-          "note": "STAR seems to fit the scientific discoveries, but it is neither a scientist nor a wave part; all four partners form fruit names."
+          "note": "TEAM can name a group of draft animals alongside PRIDE or HERD, but FIELD, NET and FRAME need it for four WORK compounds."
         }
       ]
     },

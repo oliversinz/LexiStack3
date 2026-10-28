@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 2,
+  "pack": {
+    "id": "daily",
+    "title": "Daily Stack",
+    "description": "Eight mixed discoveries, rotating with your local date."
+  },
+  "levels": [
+    {
+      "id": "daily_lvl01",
+      "packId": "daily",
+      "title": "First Light",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "WAYS TO COOK EGGS",
+          "difficultyTier": 1,
+          "tiles": [
+            "SCRAMBLED",
+            "POACHED",
+            "BOILED",
+            "FRIED"
+          ],
+          "triviaFact": "Poaching cooks an egg in liquid without its shell."
+        },
+        {
+          "id": "g2",
+          "title": "CIRCUS PERFORMERS",
+          "difficultyTier": 2,
+          "tiles": [
+            "CLOWN",
+            "ACROBAT",
+            "JUGGLER",
+            "AERIALIST"
+          ],
+          "triviaFact": "An aerialist performs acrobatics above the ground using suspended equipment."
+        },
+        {
+          "id": "g3",
+          "title": "PIANO COMPONENTS",
+          "difficultyTier": 3,
+          "tiles": [
+            "PEDAL",
+            "HAMMER",
+            "STRING",
+            "DAMPER"
+          ],
+          "triviaFact": "A piano damper stops a string from vibrating when it rests against it."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE WALK",
+          "difficultyTier": 4,
+          "tiles": [
+            "CAKE",
+            "CAT",
+            "SPACE",
+            "TIGHTROPE"
+          ],
+          "triviaFact": "A spacewalk takes an astronaut outside a spacecraft while in space."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "TIGHTROPE"
+          ],
+          "note": "TIGHTROPE suggests the circus, but is not a performer; CAKE, CAT and SPACE all join it in making WALK words."
+        }
+      ]
+    },
+    {
+      "id": "daily_lvl02",
+      "packId": "daily",
+      "title": "A Pinch of Motion",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "CULINARY SPICES",
+          "difficultyTier": 1,
+          "tiles": [
+            "SAFFRON",
+            "CUMIN",
+            "PAPRIKA",
+            "TURMERIC"
+          ],
+          "triviaFact": "Saffron consists of the dried stigmas of a particular crocus flower."
+        },
+        {
+          "id": "g2",
+          "title": "WEATHER INSTRUMENTS",
+          "difficultyTier": 2,
+          "tiles": [
+            "BAROMETER",
+            "RAIN GAUGE",
+            "WIND VANE",
+            "ANEMOMETER"
+          ],
+          "triviaFact": "A barometer measures air pressure, helping observers track changes in the weather."
+        },
+        {
+          "id": "g3",
+          "title": "BALLET MOVEMENTS AND POSES",
+          "difficultyTier": 3,
+          "tiles": [
+            "PLIE",
+            "ARABESQUE",
+            "PIROUETTE",
+            "JETE"
+          ],
+          "triviaFact": "A pirouette is a turn performed while balancing on one leg."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE MILL",
+          "difficultyTier": 4,
+          "tiles": [
+            "PEPPER",
+            "WIND",
+            "TREAD",
+            "SAW"
+          ],
+          "triviaFact": "A treadmill once used human or animal movement to drive machinery."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "PEPPER"
+          ],
+          "note": "PEPPER would make a convincing fifth spice, but it is needed to complete PEPPER MILL, WINDMILL, TREADMILL and SAWMILL."
+        }
+      ]
+    },
+    {
+      "id": "daily_lvl03",
+      "packId": "daily",
+      "title": "Off the Beaten Track",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "OPEN LANDSCAPES",
+          "difficultyTier": 1,
+          "tiles": [
+            "TUNDRA",
+            "DESERT",
+            "SAVANNA",
+            "STEPPE"
+          ],
+          "triviaFact": "Permafrost lies beneath much of the Arctic tundra."
+        },
+        {
+          "id": "g2",
+          "title": "ORCHESTRAL SOUND MAKERS",
+          "difficultyTier": 2,
+          "tiles": [
+            "BASSOON",
+            "PICCOLO",
+            "TIMPANI",
+            "TRIANGLE"
+          ],
+          "triviaFact": "Timpani can be tuned to different pitches by adjusting the tension of their drumheads."
+        },
+        {
+          "id": "g3",
+          "title": "WALLET CONTENTS",
+          "difficultyTier": 3,
+          "tiles": [
+            "CASH",
+            "CARD",
+            "RECEIPT",
+            "PHOTO"
+          ],
+          "triviaFact": "A receipt records a transaction and can serve as proof of purchase."
+        },
+        {
+          "id": "g4",
+          "title": "FOLLOW GREEN",
+          "difficultyTier": 4,
+          "tiles": [
+            "ROOM",
+            "HOUSE",
+            "HORN",
+            "LIGHT"
+          ],
+          "triviaFact": "Greenhorn describes an inexperienced person rather than a literal horn."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "HORN"
+          ],
+          "note": "HORN tempts a fifth orchestral instrument, but ROOM, HOUSE and LIGHT all need it to complete the GREEN expressions."
+        }
+      ]
+    },
+    {
+      "id": "daily_lvl04",
+      "packId": "daily",
+      "title": "Furry Logic",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "WILD CATS",
+          "difficultyTier": 1,
+          "tiles": [
+            "LION",
+            "TIGER",
+            "LYNX",
+            "OCELOT"
+          ],
+          "triviaFact": "A lynx has ear tufts and broad paws that help it travel over snow."
+        },
+        {
+          "id": "g2",
+          "title": "CAR BRANDS",
+          "difficultyTier": 2,
+          "tiles": [
+            "JAGUAR",
+            "LOTUS",
+            "TESLA",
+            "VOLVO"
+          ],
+          "triviaFact": "Volvo's name comes from Latin and means I roll."
+        },
+        {
+          "id": "g3",
+          "title": "GEOMETRIC SOLIDS",
+          "difficultyTier": 3,
+          "tiles": [
+            "CUBE",
+            "SPHERE",
+            "CONE",
+            "CYLINDER"
+          ],
+          "triviaFact": "A cylinder has two parallel circular bases connected by a curved surface."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE CAKE",
+          "difficultyTier": 4,
+          "tiles": [
+            "PAN",
+            "CHEESE",
+            "SPONGE",
+            "FRUIT"
+          ],
+          "triviaFact": "Sponge cake gets its light texture from air incorporated into the mixture."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "JAGUAR"
+          ],
+          "note": "JAGUAR could make a fifth wild cat, but LOTUS, TESLA and VOLVO need it to form the four car brands."
+        }
+      ]
+    },
+    {
+      "id": "daily_lvl05",
+      "packId": "daily",
+      "title": "Keeping Time",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "USED TO KEEP TIME",
+          "difficultyTier": 1,
+          "tiles": [
+            "CLOCK",
+            "SUNDIAL",
+            "HOURGLASS",
+            "PENDULUM"
+          ],
+          "triviaFact": "A sundial uses the changing position of a shadow to indicate the time of day."
+        },
+        {
+          "id": "g2",
+          "title": "ANIMALS THAT BUILD HOMES",
+          "difficultyTier": 2,
+          "tiles": [
+            "BEAVER",
+            "TERMITE",
+            "WEAVER",
+            "WASP"
+          ],
+          "triviaFact": "Weaver birds tie and weave plant fibers into elaborate nests."
+        },
+        {
+          "id": "g3",
+          "title": "BRITISH MUSICAL NOTE NAMES",
+          "difficultyTier": 3,
+          "tiles": [
+            "BREVE",
+            "SEMIBREVE",
+            "MINIM",
+            "CROTCHET"
+          ],
+          "triviaFact": "A breve lasts twice as long as a semibreve in standard musical notation."
+        },
+        {
+          "id": "g4",
+          "title": "FOLLOW STOP",
+          "difficultyTier": 4,
+          "tiles": [
+            "WATCH",
+            "SIGN",
+            "GAP",
+            "MOTION"
+          ],
+          "triviaFact": "Stop-motion animation creates movement from photographs of objects moved in small steps."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "WATCH"
+          ],
+          "note": "WATCH would fit beside CLOCK and SUNDIAL, but STOPWATCH, STOP SIGN, STOPGAP and STOP MOTION form the intended fourth group."
+        }
+      ]
+    },
+    {
+      "id": "daily_lvl06",
+      "packId": "daily",
+      "title": "A Taste of Language",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "CHEESES",
+          "difficultyTier": 1,
+          "tiles": [
+            "CHEDDAR",
+            "GOUDA",
+            "BRIE",
+            "FETA"
+          ],
+          "triviaFact": "Feta is traditionally made from sheep's milk or a mixture of sheep's and goat's milk."
+        },
+        {
+          "id": "g2",
+          "title": "FIVE-LETTER COUNTRIES",
+          "difficultyTier": 2,
+          "tiles": [
+            "CHILE",
+            "NEPAL",
+            "SPAIN",
+            "EGYPT"
+          ],
+          "triviaFact": "Nepal's national flag has two triangular sections rather than a rectangular outline."
+        },
+        {
+          "id": "g3",
+          "title": "ENGLISH WORDS FROM JAPANESE",
+          "difficultyTier": 3,
+          "tiles": [
+            "TSUNAMI",
+            "ORIGAMI",
+            "KARAOKE",
+            "HAIKU"
+          ],
+          "triviaFact": "Origami combines Japanese words associated with folding and paper."
+        },
+        {
+          "id": "g4",
+          "title": "ANAGRAMS OF EAST",
+          "difficultyTier": 4,
+          "tiles": [
+            "EAST",
+            "EATS",
+            "SEAT",
+            "TEAS"
+          ],
+          "triviaFact": "Anagrams preserve the count of each letter even when the arrangement changes."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "CHILE"
+          ],
+          "note": "CHILE can name a pepper, tempting a food connection with the cheeses, but NEPAL, SPAIN and EGYPT make its country group precise."
+        }
+      ]
+    },
+    {
+      "id": "daily_lvl07",
+      "packId": "daily",
+      "title": "A Fine Defense",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "FENCING VOCABULARY",
+          "difficultyTier": 1,
+          "tiles": [
+            "EPEE",
+            "SABRE",
+            "LUNGE",
+            "PARRY"
+          ],
+          "triviaFact": "A parry deflects an opponent's blade to prevent an attack from landing."
+        },
+        {
+          "id": "g2",
+          "title": "FLIGHTLESS BIRDS",
+          "difficultyTier": 2,
+          "tiles": [
+            "OSTRICH",
+            "EMU",
+            "KIWI",
+            "PENGUIN"
+          ],
+          "triviaFact": "Penguin wings have evolved into flippers that propel the birds underwater."
+        },
+        {
+          "id": "g3",
+          "title": "MAP PROJECTIONS",
+          "difficultyTier": 3,
+          "tiles": [
+            "MERCATOR",
+            "ROBINSON",
+            "MOLLWEIDE",
+            "GNOMONIC"
+          ],
+          "triviaFact": "A map projection converts positions on a curved surface into a flat representation."
+        },
+        {
+          "id": "g4",
+          "title": "VERBS FOR OBSTRUCTING",
+          "difficultyTier": 4,
+          "tiles": [
+            "FOIL",
+            "FRUSTRATE",
+            "HINDER",
+            "BLOCK"
+          ],
+          "triviaFact": "Foil can mean to prevent a plan from succeeding as well as naming a fencing weapon."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "FOIL"
+          ],
+          "note": "FOIL is a fencing weapon, but FRUSTRATE, HINDER and BLOCK require its verb meaning to complete their connection."
+        }
+      ]
+    },
+    {
+      "id": "daily_lvl08",
+      "packId": "daily",
+      "title": "Look Again",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "POLYGONS WITH AT LEAST SIX SIDES",
+          "difficultyTier": 1,
+          "tiles": [
+            "HEXAGON",
+            "OCTAGON",
+            "NONAGON",
+            "DECAGON"
+          ],
+          "triviaFact": "A nonagon has nine sides, while a decagon has ten."
+        },
+        {
+          "id": "g2",
+          "title": "VISUAL PHENOMENA",
+          "difficultyTier": 2,
+          "tiles": [
+            "MIRAGE",
+            "AFTERIMAGE",
+            "MOIRE",
+            "PARALLAX"
+          ],
+          "triviaFact": "Parallax is a change in an object's apparent position when the viewpoint changes."
+        },
+        {
+          "id": "g3",
+          "title": "BIRD NAMES THAT ARE ALSO VERBS",
+          "difficultyTier": 3,
+          "tiles": [
+            "DUCK",
+            "CROW",
+            "HAWK",
+            "RAIL"
+          ],
+          "triviaFact": "To hawk something is to offer it for sale, while to crow can mean to boast."
+        },
+        {
+          "id": "g4",
+          "title": "REVERSE TO MAKE A DIFFERENT WORD",
+          "difficultyTier": 4,
+          "tiles": [
+            "DRAWER",
+            "REWARD",
+            "LIAR",
+            "STRESSED"
+          ],
+          "triviaFact": "Reversing STRESSED produces DESSERTS, turning a feeling into something sweet."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "RAIL"
+          ],
+          "note": "RAIL reverses to LIAR, so it tempts the reversal set; only RAIL also names a bird and a verb, completing that group."
+        }
+      ]
+    }
+  ]
+}

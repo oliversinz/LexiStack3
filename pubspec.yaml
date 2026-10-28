@@ -19,7 +19,7 @@ flutter:
   assets:
     - assets/levels/
   fonts:
-    - family: Stack
+    - family: Roboto
       fonts:
         - asset: assets/fonts/Roboto-Regular.ttf
         - asset: assets/fonts/Roboto-Bold.ttf

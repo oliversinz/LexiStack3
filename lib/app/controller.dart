@@ -122,16 +122,13 @@ class AppController extends ChangeNotifier {
         ),
       );
     }
-    // During the first-pack development checkpoint only, Daily uses no UI route.
-    final dailyFile = m['daily'];
+    final dailyFile = string(m['daily'], 'manifest/daily');
     return Catalog(
       packs,
-      dailyFile == null
-          ? const Pack('daily', 'Daily Stack', '', [])
-          : Pack.parse(
-              await rootBundle.loadString('assets/levels/$dailyFile'),
-              dailyFile as String,
-            ),
+      Pack.parse(
+        await rootBundle.loadString('assets/levels/$dailyFile'),
+        dailyFile,
+      ),
     );
   }
 
@@ -310,6 +307,8 @@ class AppController extends ChangeNotifier {
       );
       campaigns[l.id] = g;
     }
+    campaigns.remove(l.id);
+    campaigns[l.id] = g;
     lastCampaign = l.id;
     changed();
     return g;

@@ -32,6 +32,8 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+/output/
+/.playwright-cli/
 
 # Symbolication related
 app.*.symbols

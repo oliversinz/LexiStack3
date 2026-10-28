@@ -43,6 +43,37 @@ GuessResult guess(Game g, List<String> words) {
 }
 
 void main() {
+  test('Park–Miller golden sequence and combo reset after solving', () {
+    final random = StableRandom(0);
+    expect(List.generate(5, (_) => random.next(2147483647)), [
+      48271,
+      182605794,
+      1291394886,
+      1914720637,
+      2078669041,
+    ]);
+    final g = fresh();
+    guess(g, ['MARS', 'VENUS', 'SATURN', 'JUPITER']);
+    expect(g.combo, 1);
+    g.select('oracle/g0/0');
+    expect(g.selection, isEmpty);
+    guess(g, ['MERCURY', 'LEAD', 'GOLD', 'ROSE']);
+    expect(g.combo, 0);
+    expect(g.mistakes, 1);
+  });
+  test('hints exhaust eligibility and corrupt restore states are rejected', () {
+    final g = fresh();
+    for (var i = 0; i < 4; i++) {
+      expect(g.boost(Booster.peek), true);
+      expect(g.boost(Booster.pair), true);
+    }
+    final snapshot = g.toJson();
+    expect(g.boost(Booster.peek), false);
+    expect(g.boost(Booster.pair), false);
+    expect(g.toJson(), snapshot);
+    final corrupt = Map<String, dynamic>.from(snapshot)..['status'] = 'won';
+    expect(() => Game.restore(g.level, corrupt), throwsA(isA<ContentError>()));
+  });
   test('oracle instance one: exact match', () {
     final g = fresh();
     expect(

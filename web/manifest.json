@@ -1,11 +1,11 @@
 {
-    "name": "lexistack",
-    "short_name": "lexistack",
+    "name": "LexiStack",
+    "short_name": "LexiStack",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#f6f3eb",
+    "theme_color": "#5547a3",
+    "description": "Sixteen words. Four discoveries. Offline word connections.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

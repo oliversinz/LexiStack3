@@ -389,19 +389,19 @@
     {
       "id": "pack3_lvl07",
       "packId": "pack3",
-      "title": "Ideas with Roots",
+      "title": "Ways of Life",
       "categories": [
         {
           "id": "g1",
-          "title": "GREEK PHILOSOPHERS",
+          "title": "MEDIEVAL SOCIAL ROLES",
           "difficultyTier": 1,
           "tiles": [
-            "SOCRATES",
-            "PLATO",
-            "ARISTOTLE",
-            "EPICURUS"
+            "MONARCH",
+            "PEASANT",
+            "SERF",
+            "MERCHANT"
           ],
-          "triviaFact": "Socrates left no known writings of his own, so his ideas survive through other authors."
+          "triviaFact": "A serf was tied to the land under many medieval systems of lordship."
         },
         {
           "id": "g2",
@@ -445,7 +445,7 @@
           "tiles": [
             "KNIGHT"
           ],
-          "note": "KNIGHT and GNOME suggest medieval fantasy, but WRIST and PSALM reveal the shared silent initial letters."
+          "note": "KNIGHT seems to belong beside MONARCH, MERCHANT and SERF, but PSALM, WRIST and GNOME need its silent initial letter."
         }
       ]
     },

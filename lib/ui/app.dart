@@ -64,8 +64,9 @@ class _LexiStackAppState extends State<LexiStackApp>
     if (stale && mounted) {
       game = null;
       _go(AppPage.home);
-    } else if (mounted)
+    } else if (mounted) {
       setState(() {});
+    }
   }
 
   @override
@@ -167,12 +168,12 @@ class _LexiStackAppState extends State<LexiStackApp>
     return ThemeData(
       useMaterial3: true,
       colorScheme: scheme,
-      fontFamily: 'Stack',
+      fontFamily: 'Roboto',
       scaffoldBackgroundColor: dark
           ? const Color(0xff191824)
           : const Color(0xfff6f3eb),
       textTheme: ThemeData(brightness: brightness).textTheme.apply(
-        fontFamily: 'Stack',
+        fontFamily: 'Roboto',
         bodyColor: scheme.onSurface,
         displayColor: scheme.onSurface,
       ),
@@ -182,7 +183,11 @@ class _LexiStackAppState extends State<LexiStackApp>
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
-          textStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+          textStyle: const TextStyle(
+            fontFamily: 'Roboto',
+            fontSize: 14,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
@@ -386,19 +391,20 @@ class _LexiStackAppState extends State<LexiStackApp>
     ),
   );
   Widget _card(BuildContext context, {required Widget child, Color? color}) =>
-      Container(
+      SizedBox(
         width: double.infinity,
-        padding: const EdgeInsets.all(18),
-        decoration: BoxDecoration(
+        child: Material(
           color: color ?? Theme.of(context).colorScheme.surface,
-          borderRadius: BorderRadius.circular(23),
-          border: Border.all(
-            color: Theme.of(
-              context,
-            ).colorScheme.outline.withValues(alpha: 0.14),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(23),
+            side: BorderSide(
+              color: Theme.of(
+                context,
+              ).colorScheme.outline.withValues(alpha: 0.14),
+            ),
           ),
+          child: Padding(padding: const EdgeInsets.all(18), child: child),
         ),
-        child: child,
       );
   Widget _home(BuildContext context) => Column(
     crossAxisAlignment: CrossAxisAlignment.start,
@@ -531,7 +537,7 @@ class _LexiStackAppState extends State<LexiStackApp>
           Expanded(
             child: TextButton(
               onPressed: () => _go(AppPage.stats),
-              child: const Text('All stats →'),
+              child: const Text('All stats'),
             ),
           ),
         ],
@@ -644,7 +650,7 @@ class _LexiStackAppState extends State<LexiStackApp>
         Text(selectedPack!.description, style: const TextStyle(height: 1.5)),
         TextButton(
           onPressed: () => setState(() => selectedPack = null),
-          child: const Text('← All collections'),
+          child: const Text('All collections'),
         ),
         for (var i = 0; i < selectedPack!.levels.length; i++)
           _levelRow(context, selectedPack!.levels[i], i),
@@ -680,14 +686,13 @@ class _LexiStackAppState extends State<LexiStackApp>
                     style: const TextStyle(fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 4),
-                  Text(
-                    stars > 0
-                        ? '${'★' * stars}${'☆' * (3 - stars)}'
-                        : open
-                        ? 'Ready to discover'
-                        : 'Solve stage $i first',
-                    style: const TextStyle(fontSize: 12),
-                  ),
+                  if (stars > 0)
+                    _stars(stars, size: 15)
+                  else
+                    Text(
+                      open ? 'Ready to discover' : 'Solve stage $i first',
+                      style: const TextStyle(fontSize: 12),
+                    ),
                 ],
               ),
             ),
@@ -722,7 +727,11 @@ class _LexiStackAppState extends State<LexiStackApp>
         children: [
           _title('Daily result'),
           const SizedBox(height: 20),
-          Text(r?.share ?? 'Come back for a new Daily.'),
+          Text(
+            r == null
+                ? 'Come back for a new Daily.'
+                : '${r.heading}\n${r.won ? 'Completed' : 'Revealed'} · ${r.mistakes} mistakes',
+          ),
           if (r != null) _share(context, r.share),
         ],
       );
@@ -986,13 +995,19 @@ class _LexiStackAppState extends State<LexiStackApp>
               Positioned(
                 top: 2,
                 right: 4,
-                child: Text(
-                  '↔${g.level.category(pair.key).tier}',
-                  style: TextStyle(
-                    color: fg,
-                    fontSize: 9,
-                    fontWeight: FontWeight.bold,
-                  ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.link, size: 11, color: fg),
+                    Text(
+                      '${g.level.category(pair.key).tier}',
+                      style: TextStyle(
+                        color: fg,
+                        fontSize: 9,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
               ),
           ],
@@ -1017,6 +1032,7 @@ class _LexiStackAppState extends State<LexiStackApp>
         },
         builder: (context, accepted, rejected) => LongPressDraggable<String>(
           data: id,
+          hapticFeedbackOnStart: c.haptics,
           delay: const Duration(milliseconds: 180),
           feedback: Material(
             type: MaterialType.transparency,
@@ -1091,11 +1107,12 @@ class _LexiStackAppState extends State<LexiStackApp>
         ? (b == Booster.life ? 'Hearts are full' : 'No eligible group')
         : !affordable
         ? 'Need ${b.price} coins'
-        : '$title for ${b.price} coins';
+        : 'Costs ${b.price} coins';
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 3),
       child: Tooltip(
-        message: reason,
+        message: '$title. $reason',
+        excludeFromSemantics: true,
         child: Semantics(
           label: '$title. $reason',
           excludeSemantics: true,
@@ -1207,13 +1224,7 @@ class _LexiStackAppState extends State<LexiStackApp>
               Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  Text(
-                    '${'★' * r.stars}${'☆' * (3 - r.stars)}',
-                    style: const TextStyle(
-                      fontSize: 25,
-                      color: Color(0xff9b6d15),
-                    ),
-                  ),
+                  _stars(r.stars),
                   Text(
                     '+${r.reward} coins',
                     style: const TextStyle(
@@ -1268,13 +1279,29 @@ class _LexiStackAppState extends State<LexiStackApp>
               }
             },
             child: Text(
-              g.date == null && r.won ? 'Next discovery →' : 'Back to home',
+              g.date == null && r.won ? 'Next discovery' : 'Back to home',
             ),
           ),
         ),
       ],
     );
   }
+
+  Widget _stars(int stars, {double size = 25}) => Semantics(
+    label: '$stars of 3 stars',
+    excludeSemantics: true,
+    child: Row(
+      mainAxisSize: MainAxisSize.min,
+      children: List.generate(
+        3,
+        (i) => Icon(
+          i < stars ? Icons.star_rounded : Icons.star_border_rounded,
+          size: size,
+          color: const Color(0xff9b6d15),
+        ),
+      ),
+    ),
+  );
 
   Widget _share(BuildContext context, String text) => SizedBox(
     width: double.infinity,

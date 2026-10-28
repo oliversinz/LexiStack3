@@ -305,7 +305,7 @@ class Game {
       g.pairs[e.key] = pair;
     }
     if ((g.status == GameStatus.won) != (g.solved.length == 4) ||
-        (g.active && g.lives == 0) ||
+        ((g.active || g.status == GameStatus.won) && g.lives == 0) ||
         ((g.status == GameStatus.lostFinal ||
                 g.status == GameStatus.lostPendingDecision) &&
             g.lives != 0)) {
