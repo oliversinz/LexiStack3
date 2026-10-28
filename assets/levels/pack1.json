@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 2,
+  "pack": {
+    "id": "pack1",
+    "title": "Everyday Echoes",
+    "description": "Fresh connections hiding in familiar things."
+  },
+  "levels": [
+    {
+      "id": "pack1_lvl01",
+      "packId": "pack1",
+      "title": "Table Talk",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "BREAKFAST BAKES",
+          "difficultyTier": 1,
+          "tiles": [
+            "TOAST",
+            "WAFFLE",
+            "MUFFIN",
+            "BAGEL"
+          ],
+          "triviaFact": "A bagel is traditionally boiled before baking, which helps create its chewy crust."
+        },
+        {
+          "id": "g2",
+          "title": "KITCHEN UTENSILS",
+          "difficultyTier": 2,
+          "tiles": [
+            "FORK",
+            "SPOON",
+            "KNIFE",
+            "LADLE"
+          ],
+          "triviaFact": "A ladle has a deep bowl designed for lifting and serving liquids such as soup."
+        },
+        {
+          "id": "g3",
+          "title": "TENNIS TERMS",
+          "difficultyTier": 3,
+          "tiles": [
+            "SERVE",
+            "LOVE",
+            "DEUCE",
+            "VOLLEY"
+          ],
+          "triviaFact": "In tennis scoring, love means zero and deuce is a tie at forty points each."
+        },
+        {
+          "id": "g4",
+          "title": "PAIRS WITH JAM",
+          "difficultyTier": 4,
+          "tiles": [
+            "TRAFFIC",
+            "PAPER",
+            "LOG",
+            "PEARL"
+          ],
+          "triviaFact": "Logjam originated as a term for timber obstructing waterways before becoming a metaphor."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "SERVE"
+          ],
+          "note": "SERVE could describe offering breakfast, but LOVE, DEUCE and VOLLEY give it a precise tennis home."
+        }
+      ]
+    },
+    {
+      "id": "pack1_lvl02",
+      "packId": "pack1",
+      "title": "A Place to Sit",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "SEATS AROUND THE HOUSE",
+          "difficultyTier": 1,
+          "tiles": [
+            "CHAIR",
+            "SOFA",
+            "STOOL",
+            "BENCH"
+          ],
+          "triviaFact": "A stool differs from a typical chair by having no backrest."
+        },
+        {
+          "id": "g2",
+          "title": "IN A SEWING BASKET",
+          "difficultyTier": 2,
+          "tiles": [
+            "NEEDLE",
+            "THREAD",
+            "THIMBLE",
+            "BOBBIN"
+          ],
+          "triviaFact": "A thimble protects a fingertip while pushing a needle through fabric."
+        },
+        {
+          "id": "g3",
+          "title": "PARTS OF A RIVER",
+          "difficultyTier": 3,
+          "tiles": [
+            "BANK",
+            "BED",
+            "MOUTH",
+            "SOURCE"
+          ],
+          "triviaFact": "A river mouth is where the flowing water enters another body of water."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE LIGHT",
+          "difficultyTier": 4,
+          "tiles": [
+            "MOON",
+            "FLASH",
+            "SPOT",
+            "DAY"
+          ],
+          "triviaFact": "The word spotlight expanded from stage lighting to mean public attention."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "BED"
+          ],
+          "note": "BED looks at home among household furniture, but the four actual seats leave it with the river terms."
+        }
+      ]
+    },
+    {
+      "id": "pack1_lvl03",
+      "packId": "pack1",
+      "title": "Cover to Cover",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "CITRUS FRUIT",
+          "difficultyTier": 1,
+          "tiles": [
+            "LEMON",
+            "LIME",
+            "ORANGE",
+            "GRAPEFRUIT"
+          ],
+          "triviaFact": "The colored outer layer of citrus peel contains aromatic oils used in zest."
+        },
+        {
+          "id": "g2",
+          "title": "PARTS OF A PRINTED BOOK",
+          "difficultyTier": 2,
+          "tiles": [
+            "SPINE",
+            "COVER",
+            "INDEX",
+            "PREFACE"
+          ],
+          "triviaFact": "An index points readers to topics by page number rather than presenting the chapters in order."
+        },
+        {
+          "id": "g3",
+          "title": "ISLAND COUNTRIES",
+          "difficultyTier": 3,
+          "tiles": [
+            "CUBA",
+            "MALTA",
+            "ICELAND",
+            "JAPAN"
+          ],
+          "triviaFact": "Japan is an archipelago, meaning a country spread across a group of islands."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE CASE",
+          "difficultyTier": 4,
+          "tiles": [
+            "BOOK",
+            "SUIT",
+            "STAIR",
+            "SHOW"
+          ],
+          "triviaFact": "A staircase takes its name from the structure that encloses or supports its steps."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "BOOK"
+          ],
+          "note": "BOOK tempts you toward SPINE and COVER; it is the whole object, while its intended partners make words ending in CASE."
+        }
+      ]
+    },
+    {
+      "id": "pack1_lvl04",
+      "packId": "pack1",
+      "title": "Do It Yourself",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "TOOLS IN A WORKSHOP",
+          "difficultyTier": 1,
+          "tiles": [
+            "HAMMER",
+            "SAW",
+            "DRILL",
+            "WRENCH"
+          ],
+          "triviaFact": "A wrench applies torque to turn fasteners such as nuts and bolts."
+        },
+        {
+          "id": "g2",
+          "title": "SOUND LIKE LETTER NAMES",
+          "difficultyTier": 2,
+          "tiles": [
+            "BEE",
+            "SEA",
+            "QUEUE",
+            "EYE"
+          ],
+          "triviaFact": "Queue comes from a French word for a tail, a fitting image for a waiting line."
+        },
+        {
+          "id": "g3",
+          "title": "CHESS PIECES",
+          "difficultyTier": 3,
+          "tiles": [
+            "KING",
+            "QUEEN",
+            "ROOK",
+            "PAWN"
+          ],
+          "triviaFact": "A pawn that reaches the far end of the board can be promoted to another piece."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE BOARD",
+          "difficultyTier": 4,
+          "tiles": [
+            "KEY",
+            "SKATE",
+            "DASH",
+            "CUP"
+          ],
+          "triviaFact": "A dashboard originally shielded carriage passengers from mud kicked up by horses."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "QUEEN"
+          ],
+          "note": "QUEEN and BEE suggest a hive, but there are no four bee-colony roles; the complete chess set resolves QUEEN."
+        }
+      ]
+    },
+    {
+      "id": "pack1_lvl05",
+      "packId": "pack1",
+      "title": "Small Change",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "PASTA SHAPES",
+          "difficultyTier": 1,
+          "tiles": [
+            "PENNE",
+            "FUSILLI",
+            "RIGATONI",
+            "FARFALLE"
+          ],
+          "triviaFact": "Farfalle takes its Italian name from butterflies, reflected in its pinched shape."
+        },
+        {
+          "id": "g2",
+          "title": "BANKING TRANSACTIONS",
+          "difficultyTier": 2,
+          "tiles": [
+            "DEPOSIT",
+            "TRANSFER",
+            "PAYMENT",
+            "WITHDRAWAL"
+          ],
+          "triviaFact": "A deposit adds funds to an account, while a withdrawal takes funds out."
+        },
+        {
+          "id": "g3",
+          "title": "LAUNDRY ACTIONS",
+          "difficultyTier": 3,
+          "tiles": [
+            "RINSE",
+            "SPIN",
+            "FOLD",
+            "PRESS"
+          ],
+          "triviaFact": "A washing machine spins to expel water through holes in its drum."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE NOTE",
+          "difficultyTier": 4,
+          "tiles": [
+            "FOOT",
+            "BANK",
+            "END",
+            "KEY"
+          ],
+          "triviaFact": "A footnote lets a writer add detail without interrupting the main passage."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "BANK"
+          ],
+          "note": "BANK suggests the financial actions, but is not itself a transaction; FOOT, END and KEY all take NOTE after them."
+        }
+      ]
+    },
+    {
+      "id": "pack1_lvl06",
+      "packId": "pack1",
+      "title": "Out and About",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "PUBLIC TRANSPORT VEHICLES",
+          "difficultyTier": 1,
+          "tiles": [
+            "BUS",
+            "TRAM",
+            "FERRY",
+            "TRAIN"
+          ],
+          "triviaFact": "A ferry carries passengers or vehicles over a regular route across water."
+        },
+        {
+          "id": "g2",
+          "title": "METRIC PREFIXES",
+          "difficultyTier": 2,
+          "tiles": [
+            "KILO",
+            "CENTI",
+            "MILLI",
+            "DECI"
+          ],
+          "triviaFact": "The prefix centi means one hundredth of the base unit."
+        },
+        {
+          "id": "g3",
+          "title": "THINGS WITH TEETH",
+          "difficultyTier": 3,
+          "tiles": [
+            "COMB",
+            "ZIPPER",
+            "GEAR",
+            "RAKE"
+          ],
+          "triviaFact": "Interlocking teeth allow gears to transfer rotation between shafts."
+        },
+        {
+          "id": "g4",
+          "title": "BEFORE STOP",
+          "difficultyTier": 4,
+          "tiles": [
+            "PIT",
+            "DOOR",
+            "SHORT",
+            "NON"
+          ],
+          "triviaFact": "A shortstop is a defensive position in baseball between second and third base."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "BUS"
+          ],
+          "note": "BUS stop is a familiar phrase, but BUS has three exact transport partners; the STOP group includes NON, as in nonstop."
+        }
+      ]
+    },
+    {
+      "id": "pack1_lvl07",
+      "packId": "pack1",
+      "title": "Second Meanings",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "BAKING MEASURES",
+          "difficultyTier": 1,
+          "tiles": [
+            "CUP",
+            "TEASPOON",
+            "TABLESPOON",
+            "OUNCE"
+          ],
+          "triviaFact": "An ounce can measure mass, while a fluid ounce measures volume."
+        },
+        {
+          "id": "g2",
+          "title": "PARTS OF A SHOE",
+          "difficultyTier": 2,
+          "tiles": [
+            "SOLE",
+            "HEEL",
+            "TONGUE",
+            "LACE"
+          ],
+          "triviaFact": "The tongue of a laced shoe cushions the top of the foot beneath the laces."
+        },
+        {
+          "id": "g3",
+          "title": "SEEN ON A MAP",
+          "difficultyTier": 3,
+          "tiles": [
+            "LEGEND",
+            "SCALE",
+            "CONTOUR",
+            "COMPASS"
+          ],
+          "triviaFact": "Contour lines connect points of equal elevation on a map."
+        },
+        {
+          "id": "g4",
+          "title": "COOKING WORDS THAT ARE ALSO PEOPLE",
+          "difficultyTier": 4,
+          "tiles": [
+            "JULIENNE",
+            "BAKER",
+            "COOK",
+            "PORTER"
+          ],
+          "triviaFact": "Julienne names both a French given name and a cut that makes thin strips."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "SCALE"
+          ],
+          "note": "SCALE could sit among kitchen measuring equipment, but the baking group contains units, leaving SCALE with map features."
+        }
+      ]
+    },
+    {
+      "id": "pack1_lvl08",
+      "packId": "pack1",
+      "title": "Hidden in Plain Sight",
+      "categories": [
+        {
+          "id": "g1",
+          "title": "TYPES OF KNOT",
+          "difficultyTier": 1,
+          "tiles": [
+            "BOWLINE",
+            "CLOVE HITCH",
+            "REEF",
+            "SHEET BEND"
+          ],
+          "triviaFact": "A bowline makes a fixed loop that does not tighten like a slip knot."
+        },
+        {
+          "id": "g2",
+          "title": "WORDS FOR A SMALL AMOUNT",
+          "difficultyTier": 2,
+          "tiles": [
+            "DASH",
+            "PINCH",
+            "DROP",
+            "TRACE"
+          ],
+          "triviaFact": "A pinch is an informal amount that can be held between finger and thumb."
+        },
+        {
+          "id": "g3",
+          "title": "DOUBLE AS VERBS FOR MOVING QUICKLY",
+          "difficultyTier": 3,
+          "tiles": [
+            "BOLT",
+            "DART",
+            "RACE",
+            "SPRINT"
+          ],
+          "triviaFact": "Bolt can mean both a metal fastener and a sudden rapid movement."
+        },
+        {
+          "id": "g4",
+          "title": "FOLLOW BLACK",
+          "difficultyTier": 4,
+          "tiles": [
+            "BIRD",
+            "BERRY",
+            "MAIL",
+            "SMITH"
+          ],
+          "triviaFact": "A blacksmith traditionally works iron, which forms a dark oxide coating when heated."
+        }
+      ],
+      "redHerrings": [
+        {
+          "tiles": [
+            "BOLT"
+          ],
+          "note": "BOLT can be a quantity of cloth, tempting a measures connection, but DASH, PINCH, DROP and TRACE all mean a small amount."
+        }
+      ]
+    }
+  ]
+}
